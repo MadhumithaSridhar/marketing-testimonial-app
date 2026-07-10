@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Surfaces - tinted off-white with subtle warm lean */
+  --background: 43 12% 98%;
+  --foreground: 43 8% 8%;
+  --card: 43 10% 99.5%;
+  --card-foreground: 43 8% 8%;
+  --popover: 43 10% 99.5%;
+  --popover-foreground: 43 8% 8%;
+
+  /* Brand - restrained orange accent */
+  --primary: 14 100% 58%;
+  --primary-foreground: 43 10% 99.5%;
+  --secondary: 43 8% 94%;
+  --secondary-foreground: 43 8% 8%;
+
+  /* Utility */
+  --muted: 43 8% 94%;
+  --muted-foreground: 43 5% 46%;
+  --accent: 43 8% 94%;
+  --accent-foreground: 43 8% 8%;
+  --destructive: 0 72% 51%;
+
+  /* Chrome - subtle differentiation from content */
+  --border: 43 10% 88%;
+  --input: 43 10% 88%;
+  --ring: 14 100% 58%;
+
+  /* Charts */
+  --chart-1: 14 100% 58%;
+  --chart-2: 43 8% 28%;
+  --chart-3: 43 8% 46%;
+  --chart-4: 43 8% 64%;
+  --chart-5: 43 8% 82%;
+
+  /* Sidebar - slightly cooler neutral for chrome */
+  --sidebar: 43 8% 96%;
+  --sidebar-foreground: 43 8% 8%;
+  --sidebar-primary: 14 100% 58%;
+  --sidebar-primary-foreground: 43 10% 99.5%;
+  --sidebar-accent: 43 8% 92%;
+  --sidebar-accent-foreground: 43 8% 8%;
+  --sidebar-border: 43 10% 88%;
+  --sidebar-ring: 14 100% 58%;
+
+  /* Radii */
+  --radius: 0.5rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* Typography */
+  --font-heading: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 0.25rem;
+}
+
+.dark {
+  /* Surfaces - warm mineral dark, not pure black */
+  --background: 43 8% 7%;
+  --foreground: 43 8% 91%;
+  --card: 43 8% 9%;
+  --card-foreground: 43 8% 91%;
+  --popover: 43 8% 9%;
+  --popover-foreground: 43 8% 91%;
+
+  /* Brand */
+  --primary: 14 100% 58%;
+  --primary-foreground: 43 8% 7%;
+  --secondary: 43 8% 15%;
+  --secondary-foreground: 43 8% 91%;
+
+  /* Utility */
+  --muted: 43 8% 15%;
+  --muted-foreground: 43 5% 60%;
+  --accent: 43 8% 15%;
+  --accent-foreground: 43 8% 91%;
+  --destructive: 0 72% 51%;
+
+  /* Chrome */
+  --border: 43 8% 20%;
+  --input: 43 8% 20%;
+  --ring: 14 100% 58%;
+
+  /* Charts */
+  --chart-1: 14 100% 58%;
+  --chart-2: 43 8% 72%;
+  --chart-3: 43 8% 54%;
+  --chart-4: 43 8% 36%;
+  --chart-5: 43 8% 18%;
+
+  /* Sidebar */
+  --sidebar: 43 8% 5%;
+  --sidebar-foreground: 43 8% 91%;
+  --sidebar-primary: 14 100% 58%;
+  --sidebar-primary-foreground: 43 8% 7%;
+  --sidebar-accent: 43 8% 13%;
+  --sidebar-accent-foreground: 43 8% 91%;
+  --sidebar-border: 43 8% 20%;
+  --sidebar-ring: 14 100% 58%;
+}

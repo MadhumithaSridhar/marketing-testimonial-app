@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   // IMPORTANT for GitHub Pages: set this to '/<your-repo-name>/'
   // e.g. if your repo is github.com/you/testimonial-app, use '/testimonial-app/'
-  base: '/testimonial-app/',
+  base: '/marketing-testimonial-app/',
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
